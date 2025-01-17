@@ -68,7 +68,7 @@ cd test-ulern.git
    ```
 
 5. **Acceder a la aplicación**  
-   Abre tu navegador y ve a `http://127.0.0.1:8000` para acceder.
+   Abre tu navegador y ve a `http://127.0.0.1:8000` para acceder (puede que asigne otro puerto).
 
 # **_Funcionalidades_**
 - **Registro y autenticación**: Los usuarios pueden crear una cuenta y autenticarse.
