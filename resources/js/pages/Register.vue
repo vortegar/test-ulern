@@ -91,7 +91,7 @@
     methods: {
       async submitForm() {
         try {
-          const response = await axios.post(`http://127.0.0.1:${window.location.port}/register`, {
+          const response = await axios.post(`http://${window.location.hostname}:${window.location.port}/register`, {
             name: this.name,
             last_name: this.last_name,
             email: this.email,

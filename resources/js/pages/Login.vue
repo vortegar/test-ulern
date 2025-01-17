@@ -71,7 +71,7 @@ export default {
   methods: {
     async submitForm() {
       try {
-        const response = await axios.post(`http://127.0.0.1:${window.location.port}/login`, {
+        const response = await axios.post(`http://${window.location.hostname}:${window.location.port}/login`, {
           email: this.email,
           password: this.password,
         }, {
