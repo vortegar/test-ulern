@@ -12,7 +12,6 @@ Sigue estos pasos para instalar y configurar el proyecto en tu máquina local.
 
 1. Clonar el repositorio
 git clone https://github.com/vortegar/test-ulern.git
-`git clone https://github.com/vortegar/test-ulern.git`
 cd test-ulern.git
 
 3. Configuración del Backend (Laravel)
